@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Coder Quiz</title>
+</head>
+
+<body>
+
+    <div class="topofPage">
+        
+        <p id="highscoreLink" class="highscoreLink"><a href="highscores.html">View Highscores</a></p>
+        <p id="countdown">Start to begin countdown!</p>
+
+    </div>
+
+    <div id="start-screen" class="questionArea">
+
+        <h1 class="description">Coding Quiz Challenge</h1>
+        <h2 class="description">Try to answer the following code-related questions within the time limit. Getting a question wrong will result in a 10 second penalty leaving you with less time to complete the test. Good luck!</h2>
+            
+            <button id="startBtn">Start Quiz!</button>
+
+
+    </div>
+
+<div class="questionArea">
+
+    <div id="questions" class="hide">
+
+        <h2 class="description" id="question-main">hi</h2>
+
+        <div id="answers" class="answers"></div>
+
+    </div>
+
+    <div id="end-screen" class="hide">
+
+        <h2>All done!</h2>
+
+            <p>Your final score is <span id="final-score"></span>.</p>
+
+                <p> Enter initials: <input type="text" id="initials" max="3" />
+
+                <button id="submit">Submit</button>
+
+            </p>
+
+      </div>
+
+</div>
+
+<div id="feedback" class="hide">
+
+    <div class="divider">
+
+        <p></p>
+
+    </div>
+
+</div>
+
+
+<script src="./Js/questions.js"></script>
+<script src="./Js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+button {
+    background-color: rgb(92, 0, 100);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(124, 0, 124);
+    color: white;
+    border-radius: 5px; 
+}
+
+.start button {
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.topofPage {
+    display: flex;
+    justify-content:space-between;
+}
+
+.description {
+    text-align: center;
+}
+
+.questionArea {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.divider {
+    border-top: 3px solid rgb(138, 138, 138);
+    font-style: italic;
+    color: rgb(138, 138, 138);
+}
+
